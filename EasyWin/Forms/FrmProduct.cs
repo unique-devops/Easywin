@@ -14,9 +14,9 @@ using System.Windows.Forms;
 
 namespace EasyWin.Forms
 {
-    public partial class FrmCustomer : Form
+    public partial class FrmProduct : Form
     {
-        public FrmCustomer()
+        public FrmProduct()
         {
             InitializeComponent();
         }

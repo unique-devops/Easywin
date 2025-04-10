@@ -1,6 +1,6 @@
 ﻿namespace EasyWin.Forms
 {
-    partial class FrmCustomer
+    partial class FrmProduct
     {
         /// <summary>
         /// Required designer variable.

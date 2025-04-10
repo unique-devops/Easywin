@@ -4,6 +4,9 @@
     <Compile Update="Forms\FrmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\FrmCustomerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MDI.cs">
       <SubType>Form</SubType>
     </Compile>

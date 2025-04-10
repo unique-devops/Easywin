@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyWin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+391af9676f36b503e5453fef1b9f431b738bc54a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyWin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyWin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -55,6 +55,7 @@ D:\EsUser\Roshan\Learning\EasyWin\EasyWin\bin\Debug\net8.0-windows\EasyWin.Compo
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\bin\Debug\net8.0-windows\EasyWin.Components.pdb
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.AssemblyReference.cache
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmCustomer.resources
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmCustomerEdit.resources
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.MDI.resources
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Properties.Resources.resources
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.GenerateResource.cache
@@ -62,9 +63,11 @@ D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Gener
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.AssemblyInfoInputs.cache
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.AssemblyInfo.cs
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.CoreCompileInputs.cache
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.sourcelink.json
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.Up2Date
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\refint\EasyWin.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.pdb
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.genruntimeconfig.cache
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\ref\EasyWin.dll
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmProduct.resources

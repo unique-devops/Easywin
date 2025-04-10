@@ -5,6 +5,7 @@ D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\Ea
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.AssemblyInfoInputs.cache
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.AssemblyInfo.cs
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.csproj.CoreCompileInputs.cache
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.sourcelink.json
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\refint\EasyWin.Components.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.pdb
