@@ -108,8 +108,15 @@ namespace EasyWin
         private void usersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCustomer frmUser = new FrmCustomer();
-            frmUser.MdiParent = this;           
+            frmUser.MdiParent = this;
             frmUser.Show();
+        }
+
+        private void saleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSalePOS frmSalePOS = new FrmSalePOS();
+            frmSalePOS.MdiParent = this;
+            frmSalePOS.Show();
         }
     }
 }

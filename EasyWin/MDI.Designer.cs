@@ -84,6 +84,8 @@
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
+            transToolStripMenuItem = new ToolStripMenuItem();
+            saleToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             toolStrip.SuspendLayout();
             statusStrip.SuspendLayout();
@@ -91,7 +93,7 @@
             // 
             // menuStrip
             // 
-            menuStrip.Items.AddRange(new ToolStripItem[] { masterToolStripMenuItem, fileMenu, editMenu, viewMenu, toolsMenu, windowsMenu, helpMenu });
+            menuStrip.Items.AddRange(new ToolStripItem[] { masterToolStripMenuItem, fileMenu, editMenu, viewMenu, toolsMenu, windowsMenu, helpMenu, transToolStripMenuItem });
             menuStrip.Location = new Point(0, 0);
             menuStrip.MdiWindowListItem = windowsMenu;
             menuStrip.Name = "menuStrip";
@@ -496,6 +498,20 @@
             toolStripStatusLabel.Size = new Size(39, 17);
             toolStripStatusLabel.Text = "Status";
             // 
+            // transToolStripMenuItem
+            // 
+            transToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { saleToolStripMenuItem });
+            transToolStripMenuItem.Name = "transToolStripMenuItem";
+            transToolStripMenuItem.Size = new Size(79, 20);
+            transToolStripMenuItem.Text = "Transaction";
+            // 
+            // saleToolStripMenuItem
+            // 
+            saleToolStripMenuItem.Name = "saleToolStripMenuItem";
+            saleToolStripMenuItem.Size = new Size(180, 22);
+            saleToolStripMenuItem.Text = "Sale";
+            saleToolStripMenuItem.Click += saleToolStripMenuItem_Click;
+            // 
             // MDI
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -575,6 +591,8 @@
         private System.Windows.Forms.ToolTip toolTip;
         private ToolStripMenuItem masterToolStripMenuItem;
         private ToolStripMenuItem usersToolStripMenuItem;
+        private ToolStripMenuItem transToolStripMenuItem;
+        private ToolStripMenuItem saleToolStripMenuItem;
     }
 }
 

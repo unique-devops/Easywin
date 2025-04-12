@@ -71,3 +71,4 @@ D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.pdb
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.genruntimeconfig.cache
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\ref\EasyWin.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmProduct.resources
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmSalePOS.resources
