@@ -118,5 +118,25 @@ namespace EasyWin
             frmSalePOS.MdiParent = this;
             frmSalePOS.Show();
         }
+
+        private void MDI_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                if (ActiveMdiChild != null)
+                {
+                    Form currentActiveForm = this.ActiveMdiChild;
+                    currentActiveForm.Close();
+                }
+
+            }
+        }
+
+        private void itemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmProduct frmProduct = new FrmProduct();
+            frmProduct.MdiParent = this;
+            frmProduct.Show();
+        }
     }
 }

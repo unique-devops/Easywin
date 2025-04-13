@@ -16,5 +16,41 @@ namespace EasyWin.Forms
         {
             InitializeComponent();
         }
+
+        private void FrmSalePOS_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter && dgvSalePOS.CurrentCell.ColumnIndex == 1)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;                        
+                int rowIndex = dgvSalePOS.CurrentCell.RowIndex;
+
+                ShowItemForm(rowIndex); // Pass current row index
+            }
+        }
+        FrmProduct frmProduct;
+        private void ShowItemForm(int rowIndex)
+        {
+            if (frmProduct == null || frmProduct.IsDisposed)
+            {
+                frmProduct = new FrmProduct();
+                frmProduct.ItemSelected += (s, selectedItem) =>
+                {
+                    // Fill selected item into current POS grid row                   
+                    dgvSalePOS.Rows[rowIndex].Cells[1].Value = selectedItem.Code;
+                    dgvSalePOS.Rows[rowIndex].Cells[2].Value = selectedItem.Name;
+                    dgvSalePOS.Rows[rowIndex].Cells[5].Value = 1;
+                    dgvSalePOS.Rows[rowIndex].Cells[7].Value = selectedItem.Price;
+                    dgvSalePOS.Rows[rowIndex].Cells[8].Value = selectedItem.Price;
+                    dgvSalePOS.Rows[rowIndex].Cells[10].Value = selectedItem.Price * 1;
+                    // Add more fields if needed
+                    dgvSalePOS.CurrentCell = dgvSalePOS.Rows[rowIndex].Cells[5]; // move to price or quantity etc.                                                                                                     
+                };
+            }
+
+            frmProduct.StartPosition = FormStartPosition.CenterParent;           
+            frmProduct.Show();
+            frmProduct.BringToFront();
+        }
     }
 }

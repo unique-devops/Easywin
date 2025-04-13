@@ -58,5 +58,13 @@ namespace EasyWin.Forms
             FrmCustomerEdit frmCustomerEdit = new FrmCustomerEdit();
             frmCustomerEdit.ShowDialog();
         }
+
+        private void FrmCustomer_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter && dataGridView1.CurrentCell != null)
+            {
+                this.Close();
+            }
+        }
     }
 }

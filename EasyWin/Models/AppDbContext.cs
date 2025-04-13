@@ -9,7 +9,7 @@ namespace EasyWin.Models
 {
     public class AppDbContext
     {
-        private readonly string connectionString = "Data Source=DELL-T440;Initial Catalog=SanjeevaniTrade;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=espl@123;MultipleActiveResultSets=True;";
+        private readonly string connectionString = "Data Source=LAPTOP-FRO03BTL;Initial Catalog=Ws_data;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=rosh@123;MultipleActiveResultSets=True;";
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -19,7 +19,7 @@ namespace EasyWin.Models
         public async Task<IEnumerable<Acms>> AcmAsync()
         {
             List<Acms> acms = new List<Acms>();
-            using (SqlConnection con = new SqlConnection("Data Source=DELL-T440;Initial Catalog=SanjeevaniTrade;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=espl@123;MultipleActiveResultSets=True;"))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 await con.OpenAsync();
                 string query = "SELECT TOP 100 Code,Name,Email,Contact1Mobile,Address FROM Acm with(nolock)";
@@ -30,7 +30,7 @@ namespace EasyWin.Models
         public async Task<IEnumerable<Acms>> AcmSearchAsync(string searchTerm)
         {
             List<Acms> acms = new List<Acms>();
-            using (SqlConnection con = new SqlConnection("Data Source=DELL-T440;Initial Catalog=SanjeevaniTrade;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=espl@123;MultipleActiveResultSets=True;"))
+            using (SqlConnection con = new SqlConnection(connectionString))
             {
                 await con.OpenAsync();
                 string query = "SELECT TOP 100 Code,Name,Email,Contact1Mobile,Address FROM Acm with(nolock) WHERE Name LIKE @SearchTerm or code like @Code";

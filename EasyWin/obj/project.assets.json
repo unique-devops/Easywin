@@ -1748,28 +1748,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\princ\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\EasyWin.csproj",
+      "projectUniqueName": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\EasyWin.csproj",
       "projectName": "EasyWin",
-      "projectPath": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\EasyWin.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\obj\\",
+      "projectPath": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\EasyWin.csproj",
+      "packagesPath": "C:\\Users\\princ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\princ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
@@ -1783,8 +1780,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin.Components\\EasyWin.Components.csproj": {
-              "projectPath": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin.Components\\EasyWin.Components.csproj"
+            "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin.Components\\EasyWin.Components.csproj": {
+              "projectPath": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin.Components\\EasyWin.Components.csproj"
             }
           }
         }
@@ -1793,11 +1790,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1836,7 +1828,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

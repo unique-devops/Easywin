@@ -16,6 +16,8 @@ namespace EasyWin.Forms
 {
     public partial class FrmProduct : Form
     {
+        public event EventHandler<Item> ItemSelected;
+        public Acms selectedItem;
         public FrmProduct()
         {
             InitializeComponent();
@@ -35,11 +37,11 @@ namespace EasyWin.Forms
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             string _colon = ": ";
-            var selectedCustomer = (Acms)dataGridView1.CurrentRow.DataBoundItem;
-            lblCode.Text = selectedCustomer.Code.ToString();
-            lblContact.Text = _colon + selectedCustomer.Contact1Mobile;
+            selectedItem = (Acms)dataGridView1.CurrentRow.DataBoundItem;
+            lblCode.Text = selectedItem.Code.ToString();
+            lblContact.Text = _colon + selectedItem.Contact1Mobile;
             lblGender.Text = _colon + "Male";
-            lblEmail.Text = _colon + selectedCustomer.Email;
+            lblEmail.Text = _colon + selectedItem.Email;
         }
 
         private async void txtSearch_TextChanged(object sender, EventArgs e)
@@ -57,6 +59,27 @@ namespace EasyWin.Forms
         {
             FrmCustomerEdit frmCustomerEdit = new FrmCustomerEdit();
             frmCustomerEdit.ShowDialog();
+        }
+
+        private void FrmProduct_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                var selectedItem = GetSelectedItem(); // however you select it
+                ItemSelected?.Invoke(this, selectedItem);
+                this.Close();
+            }
+        }
+
+        private Item GetSelectedItem()
+        {
+           
+            return new Item
+            {
+                Code = selectedItem.Code,
+                Name = selectedItem.Name,
+                Price = 99.99m
+            };
         }
     }
 }
