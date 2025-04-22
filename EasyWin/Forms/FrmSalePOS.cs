@@ -22,11 +22,25 @@ namespace EasyWin.Forms
             if (e.KeyCode == Keys.Enter && dgvSalePOS.CurrentCell.ColumnIndex == 1)
             {
                 e.Handled = true;
-                e.SuppressKeyPress = true;                        
+                e.SuppressKeyPress = true;
                 int rowIndex = dgvSalePOS.CurrentCell.RowIndex;
 
                 ShowItemForm(rowIndex); // Pass current row index
+
             }
+            else if (e.KeyCode == Keys.Enter && dgvSalePOS.CurrentCell.ColumnIndex == 5 && dgvSalePOS.CurrentCell != null)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+                dgvSalePOS.CurrentCell = dgvSalePOS.Rows[dgvSalePOS.Rows.Count - 1].Cells[1];
+                //dgvSalePOS.Rows[dgvSalePOS.Rows.Count-1].Cells[1].Selected = true;
+            }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+
         }
         FrmProduct frmProduct;
         private void ShowItemForm(int rowIndex)
@@ -44,13 +58,20 @@ namespace EasyWin.Forms
                     dgvSalePOS.Rows[rowIndex].Cells[8].Value = selectedItem.Price;
                     dgvSalePOS.Rows[rowIndex].Cells[10].Value = selectedItem.Price * 1;
                     // Add more fields if needed
-                    dgvSalePOS.CurrentCell = dgvSalePOS.Rows[rowIndex].Cells[5]; // move to price or quantity etc.                                                                                                     
+                    dgvSalePOS.CurrentCell = dgvSalePOS.Rows[rowIndex].Cells[5]; // move to price or quantity etc.                    
+                    dgvSalePOS.Rows.Add(1);
+
                 };
             }
 
-            frmProduct.StartPosition = FormStartPosition.CenterParent;           
+            frmProduct.StartPosition = FormStartPosition.CenterParent;
             frmProduct.Show();
             frmProduct.BringToFront();
+        }
+
+        private void FrmSalePOS_Load(object sender, EventArgs e)
+        {
+            dgvSalePOS.Rows.Add(1);
         }
     }
 }

@@ -64,12 +64,15 @@
             // 
             // dgvSalePOS
             // 
+            dgvSalePOS.AllowUserToAddRows = false;
+            dgvSalePOS.AllowUserToResizeRows = false;
             dgvSalePOS.BackgroundColor = Color.White;
             dgvSalePOS.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvSalePOS.Columns.AddRange(new DataGridViewColumn[] { col_srno, col_code, col_name, col_batch, col_exp, col_qty, col_free_qty, col_mrp, col_sale_rate, col_discount, col_total_amount });
             dgvSalePOS.Dock = DockStyle.Fill;
             dgvSalePOS.Location = new Point(3, 162);
             dgvSalePOS.Margin = new Padding(3, 4, 3, 4);
+            dgvSalePOS.MultiSelect = false;
             dgvSalePOS.Name = "dgvSalePOS";
             dgvSalePOS.RowHeadersVisible = false;
             dgvSalePOS.RowHeadersWidth = 51;
@@ -82,7 +85,6 @@
             col_srno.HeaderText = "SrNo";
             col_srno.MinimumWidth = 6;
             col_srno.Name = "col_srno";
-            col_srno.ReadOnly = true;
             col_srno.SortMode = DataGridViewColumnSortMode.NotSortable;
             col_srno.Width = 50;
             // 
@@ -170,6 +172,7 @@
             StartPosition = FormStartPosition.CenterParent;
             Text = "FrmSalePOS";
             WindowState = FormWindowState.Maximized;
+            Load += FrmSalePOS_Load;
             KeyDown += FrmSalePOS_KeyDown;
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvSalePOS).EndInit();
