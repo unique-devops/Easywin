@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyWin.Components")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4a4bdbc6d08b8f3448b3cc055c9eeea5508276d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f116b0fcdd35f012d4a33996485dba7d23dfdfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyWin.Components")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyWin.Components")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

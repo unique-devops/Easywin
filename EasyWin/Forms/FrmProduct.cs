@@ -73,13 +73,24 @@ namespace EasyWin.Forms
 
         private Item GetSelectedItem()
         {
-           
+
             return new Item
             {
                 Code = selectedItem.Code,
                 Name = selectedItem.Name,
                 Price = 99.99m
             };
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            FrmProductEdit frmProductEdit = new FrmProductEdit();
+            if (this.MdiParent != null)
+            {
+                frmProductEdit.MdiParent = this.MdiParent;
+            }
+
+            frmProductEdit.Show();
         }
     }
 }

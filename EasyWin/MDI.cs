@@ -138,5 +138,10 @@ namespace EasyWin
             frmProduct.MdiParent = this;
             frmProduct.Show();
         }
+
+        private void MDI_Load(object sender, EventArgs e)
+        {
+            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+        }
     }
 }

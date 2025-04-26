@@ -56,7 +56,8 @@ namespace EasyWin.Forms
         private void btnEdit_Click(object sender, EventArgs e)
         {
             FrmCustomerEdit frmCustomerEdit = new FrmCustomerEdit();
-            frmCustomerEdit.ShowDialog();
+            frmCustomerEdit.MdiParent = this.MdiParent;
+            frmCustomerEdit.Show();
         }
 
         private void FrmCustomer_KeyDown(object sender, KeyEventArgs e)

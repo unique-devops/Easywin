@@ -27,8 +27,8 @@ namespace EasyWin.Components
         protected override void OnPaint(PaintEventArgs pevent)
         {
             base.OnPaint(pevent); // Keep base to retain focus rectangle, etc.
-
-            pevent.Graphics.Clear(this.BackColor);
+            this.Text = "";
+            //pevent.Graphics.Clear(this.BackColor);
 
             // Draw border
             //ControlPaint.DrawBorder(pevent.Graphics, this.ClientRectangle, Color.Gray, ButtonBorderStyle.Solid);
@@ -88,6 +88,7 @@ namespace EasyWin.Components
             // Draw colored texts
             pevent.Graphics.DrawString(ShortcutText, ShortcutFont, new SolidBrush(ShortcutColor), x, y);
             pevent.Graphics.DrawString(ActionText, Font, new SolidBrush(ActionColor), x + shortcutSize.Width, y);
+
         }
     }
 }
