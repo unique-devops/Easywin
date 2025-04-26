@@ -143,5 +143,12 @@ namespace EasyWin
         {
             toolStrip.Visible = toolBarToolStripMenuItem.Checked;
         }
+
+        private void supplierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSupplierEdit frmSupplierEdit = new FrmSupplierEdit();
+            frmSupplierEdit.MdiParent = this;
+            frmSupplierEdit.Show();
+        }
     }
 }

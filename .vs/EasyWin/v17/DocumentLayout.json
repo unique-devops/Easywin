@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmsupplieredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmsupplieredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|D:\\EsUser\\Roshan\\Learning\\EasyWin\\easywin\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -47,19 +55,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmSupplierEdit.cs",
+              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmSupplierEdit.cs",
+              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmSupplierEdit.cs",
+              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmSupplierEdit.cs",
+              "RelativeToolTip": "EasyWin\\Forms\\FrmSupplierEdit.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwJ4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:44:52.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MDI.cs [Design]",
+              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs",
+              "RelativeDocumentMoniker": "EasyWin\\MDI.cs",
+              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs [Design]",
+              "RelativeToolTip": "EasyWin\\MDI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:43:58.552Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmCustomer.cs",
               "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmCustomer.cs",
               "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmCustomer.cs",
               "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmCustomer.cs",
               "RelativeToolTip": "EasyWin\\Forms\\FrmCustomer.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwEMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T11:28:49.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FrmProduct.cs [Design]",
               "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs",
               "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmProduct.cs",
@@ -70,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FrmProduct.cs",
               "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs",
               "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmProduct.cs",
@@ -82,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Program.cs",
               "RelativeDocumentMoniker": "EasyWin\\Program.cs",
@@ -100,7 +133,7 @@
               "RelativeDocumentMoniker": "EasyWin\\MDI.cs",
               "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs",
               "RelativeToolTip": "EasyWin\\MDI.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA3wFEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwJYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T05:00:41.505Z",
               "EditorCaption": ""

@@ -75,6 +75,7 @@
             aboutToolStripMenuItem = new ToolStripMenuItem();
             transToolStripMenuItem = new ToolStripMenuItem();
             saleToolStripMenuItem = new ToolStripMenuItem();
+            signInToolStripMenuItem = new ToolStripMenuItem();
             toolStrip = new ToolStrip();
             newToolStripButton = new ToolStripButton();
             openToolStripButton = new ToolStripButton();
@@ -90,7 +91,7 @@
             groupBox1 = new GroupBox();
             richTextButton2 = new Components.RichTextButton();
             richTextButton1 = new Components.RichTextButton();
-            signInToolStripMenuItem = new ToolStripMenuItem();
+            supplierToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             toolStrip.SuspendLayout();
             statusStrip.SuspendLayout();
@@ -113,7 +114,7 @@
             // 
             // masterToolStripMenuItem
             // 
-            masterToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usersToolStripMenuItem, itemToolStripMenuItem });
+            masterToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { usersToolStripMenuItem, itemToolStripMenuItem, supplierToolStripMenuItem });
             masterToolStripMenuItem.ForeColor = Color.FromArgb(192, 0, 0);
             masterToolStripMenuItem.Name = "masterToolStripMenuItem";
             masterToolStripMenuItem.Size = new Size(66, 24);
@@ -122,14 +123,14 @@
             // usersToolStripMenuItem
             // 
             usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            usersToolStripMenuItem.Size = new Size(108, 24);
+            usersToolStripMenuItem.Size = new Size(180, 24);
             usersToolStripMenuItem.Text = "User";
             usersToolStripMenuItem.Click += usersToolStripMenuItem_Click;
             // 
             // itemToolStripMenuItem
             // 
             itemToolStripMenuItem.Name = "itemToolStripMenuItem";
-            itemToolStripMenuItem.Size = new Size(108, 24);
+            itemToolStripMenuItem.Size = new Size(180, 24);
             itemToolStripMenuItem.Text = "Item";
             itemToolStripMenuItem.Click += itemToolStripMenuItem_Click;
             // 
@@ -437,6 +438,13 @@
             saleToolStripMenuItem.Text = "Sale";
             saleToolStripMenuItem.Click += saleToolStripMenuItem_Click;
             // 
+            // signInToolStripMenuItem
+            // 
+            signInToolStripMenuItem.Alignment = ToolStripItemAlignment.Right;
+            signInToolStripMenuItem.Name = "signInToolStripMenuItem";
+            signInToolStripMenuItem.Size = new Size(66, 24);
+            signInToolStripMenuItem.Text = "Sign in";
+            // 
             // toolStrip
             // 
             toolStrip.ImageScalingSize = new Size(20, 20);
@@ -560,7 +568,6 @@
             richTextButton2.ShortcutText = "P:";
             richTextButton2.Size = new Size(136, 28);
             richTextButton2.TabIndex = 1;
-            richTextButton2.Text = "richTextButton2";
             richTextButton2.TextAlign = ContentAlignment.MiddleLeft;
             richTextButton2.UseVisualStyleBackColor = false;
             // 
@@ -578,16 +585,15 @@
             richTextButton1.ShortcutText = "S:";
             richTextButton1.Size = new Size(136, 28);
             richTextButton1.TabIndex = 0;
-            richTextButton1.Text = "richTextButton1";
             richTextButton1.TextAlign = ContentAlignment.MiddleLeft;
             richTextButton1.UseVisualStyleBackColor = false;
             // 
-            // signInToolStripMenuItem
+            // supplierToolStripMenuItem
             // 
-            signInToolStripMenuItem.Alignment = ToolStripItemAlignment.Right;
-            signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            signInToolStripMenuItem.Size = new Size(66, 24);
-            signInToolStripMenuItem.Text = "Sign in";
+            supplierToolStripMenuItem.Name = "supplierToolStripMenuItem";
+            supplierToolStripMenuItem.Size = new Size(180, 24);
+            supplierToolStripMenuItem.Text = "Supplier";
+            supplierToolStripMenuItem.Click += supplierToolStripMenuItem_Click;
             // 
             // MDI
             // 
@@ -683,6 +689,7 @@
         private Components.RichTextButton richTextButton1;
         private Components.RichTextButton richTextButton2;
         private ToolStripMenuItem signInToolStripMenuItem;
+        private ToolStripMenuItem supplierToolStripMenuItem;
     }
 }
 

@@ -148,3 +148,4 @@ C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.genruntimeconfig.cache
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\ref\EasyWin.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmProductEdit.resources
+D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmSupplierEdit.resources
