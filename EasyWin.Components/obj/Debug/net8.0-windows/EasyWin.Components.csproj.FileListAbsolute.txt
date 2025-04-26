@@ -10,14 +10,14 @@ D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\Ea
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\refint\EasyWin.Components.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.pdb
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin.Components\obj\Debug\net8.0-windows\ref\EasyWin.Components.dll
-C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.deps.json
-C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.dll
-C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.pdb
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.AssemblyInfoInputs.cache
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.AssemblyInfo.cs
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.csproj.CoreCompileInputs.cache
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.sourcelink.json
+C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.deps.json
+C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.dll
+C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\bin\Debug\net8.0-windows\EasyWin.Components.pdb
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\refint\EasyWin.Components.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin.Components\obj\Debug\net8.0-windows\EasyWin.Components.pdb
