@@ -9,7 +9,7 @@ namespace EasyWin.Models
 {
     public class AppDbContext
     {
-        private readonly string connectionString = "Data Source=DELL-T440;Initial Catalog=WS_SanjayMedical;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=espl@123;MultipleActiveResultSets=True;";
+        private readonly string connectionString = "Data Source=LAPTOP-FRO03BTL;Initial Catalog=Ws_data;TrustServerCertificate=True;Persist Security Info=True;User ID = sa; password=rosh@123;MultipleActiveResultSets=True;";
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

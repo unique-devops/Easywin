@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\",
+  "WorkspaceRootPath": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmsupplieredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmsupplieredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|c:\\users\\princ\\desktop\\working\\easywin\\easywin\\forms\\frmsalepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmsalepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\mdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|D:\\EsUser\\Roshan\\Learning\\EasyWin\\easywin\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|d:\\esuser\\roshan\\learning\\easywin\\easywin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|c:\\users\\princ\\desktop\\working\\easywin\\easywin\\forms\\frmsalepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B7E11CA-6A9F-4610-9566-A3C483D9B3E6}|EasyWin\\EasyWin.csproj|solutionrelative:easywin\\forms\\frmsalepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,90 +33,33 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmSupplierEdit.cs",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmSupplierEdit.cs",
-              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmSupplierEdit.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmSupplierEdit.cs",
-              "RelativeToolTip": "EasyWin\\Forms\\FrmSupplierEdit.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwJ4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:44:52.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MDI.cs [Design]",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs",
-              "RelativeDocumentMoniker": "EasyWin\\MDI.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs [Design]",
-              "RelativeToolTip": "EasyWin\\MDI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T12:43:58.552Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmCustomer.cs",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmCustomer.cs",
-              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmCustomer.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmCustomer.cs",
-              "RelativeToolTip": "EasyWin\\Forms\\FrmCustomer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:28:49.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmProduct.cs [Design]",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs",
-              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmProduct.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs [Design]",
-              "RelativeToolTip": "EasyWin\\Forms\\FrmProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T11:24:29.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmProduct.cs",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs",
-              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmProduct.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Forms\\FrmProduct.cs",
-              "RelativeToolTip": "EasyWin\\Forms\\FrmProduct.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowB4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:19:39.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Program.cs",
-              "RelativeDocumentMoniker": "EasyWin\\Program.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\Program.cs",
-              "RelativeToolTip": "EasyWin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:00:50.96Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MDI.cs",
-              "DocumentMoniker": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs",
-              "RelativeDocumentMoniker": "EasyWin\\MDI.cs",
-              "ToolTip": "D:\\EsUser\\Roshan\\Learning\\EasyWin\\EasyWin\\MDI.cs",
-              "RelativeToolTip": "EasyWin\\MDI.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAkwJYAAAAbAAAAAAAAAA==",
+              "Title": "FrmSalePOS.cs",
+              "DocumentMoniker": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\Forms\\FrmSalePOS.cs",
+              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmSalePOS.cs",
+              "ToolTip": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\Forms\\FrmSalePOS.cs",
+              "RelativeToolTip": "EasyWin\\Forms\\FrmSalePOS.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAlwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:00:41.505Z",
+              "WhenOpened": "2025-05-13T18:10:21.669Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmSalePOS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\Forms\\FrmSalePOS.cs",
+              "RelativeDocumentMoniker": "EasyWin\\Forms\\FrmSalePOS.cs",
+              "ToolTip": "C:\\Users\\princ\\Desktop\\Working\\Easywin\\EasyWin\\Forms\\FrmSalePOS.cs [Design]",
+              "RelativeToolTip": "EasyWin\\Forms\\FrmSalePOS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T18:05:06.047Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -105,7 +105,6 @@ C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\System.D
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\System.Memory.Data.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
-C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
@@ -141,7 +140,6 @@ C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.AssemblyInfo.cs
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.CoreCompileInputs.cache
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.sourcelink.json
-C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.CopyComplete
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\refint\EasyWin.dll
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.pdb
@@ -149,3 +147,7 @@ C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.
 C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\ref\EasyWin.dll
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmProductEdit.resources
 D:\EsUser\Roshan\Learning\EasyWin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmSupplierEdit.resources
+C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmProductEdit.resources
+C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmSupplierEdit.resources
+C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.Forms.FrmSupplier.resources
+C:\Users\princ\Desktop\Working\Easywin\EasyWin\obj\Debug\net8.0-windows\EasyWin.csproj.Up2Date

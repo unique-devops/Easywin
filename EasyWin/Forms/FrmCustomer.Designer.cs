@@ -42,7 +42,7 @@
             btnView = new Button();
             btnEdit = new Button();
             btnAdd = new Button();
-            txtSearch = new Components.HintTextBox();
+            txtSearch = new EasyWin.Components.HintTextBox();
             tableLayoutPanel4 = new TableLayoutPanel();
             lblEmail = new Label();
             lblGender = new Label();
@@ -281,7 +281,7 @@
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 27F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 27F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 27F));
-            tableLayoutPanel4.Size = new Size(307, 364);
+            tableLayoutPanel4.Size = new Size(306, 364);
             tableLayoutPanel4.TabIndex = 2;
             // 
             // lblEmail
@@ -290,7 +290,7 @@
             lblEmail.AutoEllipsis = true;
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.Location = new Point(92, 68);
+            lblEmail.Location = new Point(91, 68);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(24, 23);
             lblEmail.TabIndex = 7;
@@ -302,7 +302,7 @@
             lblGender.AutoEllipsis = true;
             lblGender.AutoSize = true;
             lblGender.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblGender.Location = new Point(92, 38);
+            lblGender.Location = new Point(91, 38);
             lblGender.Name = "lblGender";
             lblGender.Size = new Size(24, 23);
             lblGender.TabIndex = 6;
@@ -336,7 +336,7 @@
             lblContact.AutoEllipsis = true;
             lblContact.AutoSize = true;
             lblContact.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblContact.Location = new Point(92, 5);
+            lblContact.Location = new Point(91, 5);
             lblContact.Name = "lblContact";
             lblContact.Size = new Size(24, 23);
             lblContact.TabIndex = 1;
@@ -359,7 +359,7 @@
             lblCode.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblCode.Location = new Point(14, 272);
             lblCode.Name = "lblCode";
-            lblCode.Size = new Size(307, 47);
+            lblCode.Size = new Size(306, 47);
             lblCode.TabIndex = 1;
             lblCode.Text = "--";
             lblCode.TextAlign = ContentAlignment.MiddleCenter;
@@ -371,7 +371,7 @@
             pictureBox1.Location = new Point(14, 4);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(309, 264);
+            pictureBox1.Size = new Size(308, 264);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -386,6 +386,7 @@
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "FrmCustomer";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Customer";
             WindowState = FormWindowState.Maximized;
             Load += FrmCustomer_Load;

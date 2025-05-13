@@ -19,7 +19,17 @@ namespace EasyWin.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmProductEdit_Load(object sender, EventArgs e)
+        {
+            //panel1.BackColor = Color.FromArgb(201, 231, 201);
         }
     }
 }

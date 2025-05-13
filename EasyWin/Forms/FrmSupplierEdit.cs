@@ -15,13 +15,13 @@ namespace EasyWin.Forms
         public FrmSupplierEdit()
         {
             InitializeComponent();
-            this.DoubleBuffered = true;
-            this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
-                          ControlStyles.AllPaintingInWmPaint |
-                          ControlStyles.UserPaint, true);
-            this.UpdateStyles();
+            //this.DoubleBuffered = true;
+            //this.SetStyle(ControlStyles.OptimizedDoubleBuffer |
+            //              ControlStyles.AllPaintingInWmPaint |
+            //              ControlStyles.UserPaint, true);
+            //this.UpdateStyles();
 
-            InitializeLayout();
+            //InitializeLayout();
         }
         private void InitializeLayout()
         {
@@ -151,7 +151,7 @@ namespace EasyWin.Forms
         private TabPage CreateOtherTab()
         {
             TabPage tab = new TabPage("Other Info");
-
+            //tab.BackColor = Color.Blue;
             FlowLayoutPanel panel = CreateFormPanel();
 
             panel.Controls.Add(CreateLabelTextBox("Item Type:", 250));
@@ -169,7 +169,8 @@ namespace EasyWin.Forms
                 FlowDirection = FlowDirection.TopDown,
                 AutoScroll = true,
                 WrapContents = false,
-                //Padding = new Padding(10),
+                Padding = new Padding(10),
+                //BackColor = Color.OrangeRed,
             };
         }
         private Panel CreateLabelTextBox(string labelText, int textboxWidth)
@@ -177,7 +178,9 @@ namespace EasyWin.Forms
             Panel panel = new Panel()
             {
                 Height = 40,
-                //Dock = DockStyle.Top,                
+                Width = 500,
+                //BackColor = Color.Red,
+                //Dock = DockStyle.Top,
             };
 
             Label label = new Label()

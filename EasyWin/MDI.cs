@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +15,7 @@ namespace EasyWin
     public partial class MDI : Form
     {
         private int childFormNumber = 0;
+        private List<Type> recentForms = new List<Type>();
 
         public MDI()
         {
@@ -108,15 +110,14 @@ namespace EasyWin
         private void usersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCustomer frmUser = new FrmCustomer();
+            frmUser.WindowState = FormWindowState.Maximized;
             frmUser.MdiParent = this;
             frmUser.Show();
         }
 
         private void saleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmSalePOS frmSalePOS = new FrmSalePOS();
-            frmSalePOS.MdiParent = this;
-            frmSalePOS.Show();
+            OpenForm<FrmSalePOS>();
         }
 
         private void MDI_KeyDown(object sender, KeyEventArgs e)
@@ -134,21 +135,118 @@ namespace EasyWin
 
         private void itemToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmProduct frmProduct = new FrmProduct();
-            frmProduct.MdiParent = this;
-            frmProduct.Show();
+            OpenForm<FrmProduct>();
         }
 
         private void MDI_Load(object sender, EventArgs e)
         {
             toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+            this.MdiChildActivate += MDI_MdiChildActivate;
+        }
+
+        private void MDI_MdiChildActivate(object? sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild != null && this.ActiveMdiChild.WindowState != FormWindowState.Maximized)
+            {
+                this.ActiveMdiChild.WindowState = FormWindowState.Maximized;
+            }
         }
 
         private void supplierToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmSupplierEdit frmSupplierEdit = new FrmSupplierEdit();
-            frmSupplierEdit.MdiParent = this;
-            frmSupplierEdit.Show();
+            OpenForm<FrmSupplier>();
         }
+
+        public void OpenForm<T>() where T : Form, new()
+        {
+            // Check if form already open
+            foreach (Form child in this.MdiChildren)
+            {
+                if (child is T)
+                {
+                    child.BringToFront();
+                    child.WindowState = FormWindowState.Maximized;
+                    child.Activate();
+                    return;
+                }
+            }
+
+            // If not open, create and show
+            var form = new T
+            {
+                MdiParent = this,
+                WindowState = FormWindowState.Maximized
+            };
+            form.Show();
+        }
+
+        public void OpenForm(Form form)
+        {
+            foreach (Form child in this.MdiChildren)
+            {
+                if (child.GetType() == form.GetType())
+                {
+                    child.BringToFront();
+                    child.WindowState = FormWindowState.Maximized;
+                    child.Activate();
+                    return;
+                }
+            }
+
+            form.MdiParent = this;
+            form.WindowState = FormWindowState.Maximized;
+            form.Show();
+            // Update recent forms list
+            //AddToRecentForms(typeof(T));
+        }
+        private void AddToRecentForms(Type formType)
+        {
+            if (recentForms.Contains(formType))
+            {
+                recentForms.Remove(formType);
+            }
+
+            recentForms.Insert(0, formType); // Add to top
+            if (recentForms.Count > 10)
+                recentForms.RemoveAt(10); // Keep max 10 recent
+
+            RefreshRecentFormsMenu();
+        }
+        private void RefreshRecentFormsMenu()
+        {
+            //recentFormsToolStripMenuItem.DropDownItems.Clear();
+
+            //foreach (var formType in recentForms)
+            //{
+            //    var item = new ToolStripMenuItem(formType.Name);
+            //    item.Tag = formType;
+            //    item.Click += (s, e) =>
+            //    {
+            //        Type type = (Type)((ToolStripMenuItem)s).Tag;
+            //        MethodInfo method = typeof(MainForm).GetMethod("OpenForm");
+            //        MethodInfo generic = method.MakeGenericMethod(type);
+            //        generic.Invoke(this, null);
+            //    };
+            //    recentFormsToolStripMenuItem.DropDownItems.Add(item);
+            //}
+        }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == (Keys.Control | Keys.Alt | Keys.C))
+            {
+                OpenForm<FrmCustomer>();
+                return true;
+            }
+            else if (keyData == (Keys.Control | Keys.Alt | Keys.I))
+            {
+                OpenForm<FrmProduct>();
+                return true;
+            }
+
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+
+
     }
 }
